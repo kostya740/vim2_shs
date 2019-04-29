@@ -9,4 +9,4 @@ make CROSS_COMPILE=aarch64-linux-gnu-
 cd ../
 source build/envsetup.sh
 lunch kvim2-userdebug-64
-make -j2 otapackage
+make -j8 otapackage
